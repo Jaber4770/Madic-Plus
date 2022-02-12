@@ -6,7 +6,7 @@ import Header from './Components/Shared/Header/Header';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header></Header>
       <Home></Home>
       <Footer></Footer>
