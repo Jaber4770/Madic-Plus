@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap';
 
 const Footer = () => {
     return (
-        <div className='bg-primary text-white'>
+        <div className='border'>
             <Container>
                 <div className='d-flex'>
                     <div className="pe-5 pt-3">

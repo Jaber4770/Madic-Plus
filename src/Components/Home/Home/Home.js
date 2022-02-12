@@ -1,11 +1,14 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
+import Banner from '../Banner/Banner';
+import Services from '../Services/Services';
 
 const Home = () => {
     return (
         <div>
             <Container>
-                <h1>all home component will come here</h1>
+                <Banner></Banner>
+                <Services></Services>
             </Container>
         </div>
     );
