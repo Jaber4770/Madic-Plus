@@ -1,5 +1,7 @@
+import { FaPhoneAlt, FaRegEnvelope, FaFacebook, FaYoutube, FaLinkedin, FaTwitter } from "react-icons/fa";
 import React from 'react';
 import { Container } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -7,22 +9,23 @@ const Footer = () => {
             <Container>
                 <div className='d-flex'>
                     <div className="pe-5 pt-3">
-                        <h3><FaBeer />Contact info</h3>
-                        <p>Phone: +88016XXXXXXXX</p>
-                        <p>Email: info@medicplus.com</p>
+                        <h3>Contact info</h3>
+                        <p><FaPhoneAlt /> Phone: +88016XXXXXXXX</p>
+                        <p><FaRegEnvelope /> Email: info@medicplus.com</p>
                     </div>
                     <div className="pe-5 pt-3">
                         <h3>For Appointment</h3>
-                        <p>Phone: +88016XXXXXXXX</p>
-                        <p>Email: MedicPlus@services.com</p>
+                        <p><FaPhoneAlt /> Phone: +88016XXXXXXXX</p>
+                        <p><FaRegEnvelope /> Email: MedicPlus@services.com</p>
                     </div>
                     <div className="pe-5 pt-3">
                         <h3>Social</h3>
                         <div className='text-danger'>
-                            <a href="https://facebook.com"></a>
-                            <a href="https://twitter.com"></a>
-                            <a href="https://youtube.com"></a>
-                            <a href="https://linkedin.com"></a>
+                            <a target="_blank" href="https://facebook.com"><FaFacebook /></a>
+                            <a target="_blank" href="https://twitter.com"><FaTwitter /></a>
+                            <a target="_blank" href="https://youtube.com"><FaYoutube /></a>
+                            <a target="_blank" href="https://linkedin.com"><FaLinkedin /></a>
+                            <Link target={"_blank"} to="https://facebook.com"><FaFacebook /></Link>
                         </div>
                     </div>
                     <div className="pe-5 pt-3">
