@@ -5,7 +5,7 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 const Header = () => {
     return (
         <>
-            <Navbar className='bg-clr'>
+            <Navbar sticky="top" bg="light" variant="light" className='bg-clr'>
                 <Container>
                     <Navbar.Brand href="#home">
                         <img className='navIcon' src="https://i.ibb.co/xjfw99d/free-downloads-medical-clipart-640290.png" alt="" />
