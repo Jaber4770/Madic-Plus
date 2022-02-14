@@ -21,10 +21,10 @@ const Footer = () => {
                     <div className="pe-2 pt-3">
                         <h3>Social Media</h3>
                         <div className='text-danger social-icon'>
-                            <a className="facebok" target="_blank" href="https://facebook.com"><FaFacebook /></a>
-                            <a className="twitter" target="_blank" href="https://twitter.com"><FaTwitter /></a>
-                            <a className="youtube" target="_blank" href="https://youtube.com"><FaYoutube /></a>
-                            <a className="linkedin" target="_blank" href="https://linkedin.com"><FaLinkedin /></a>
+                            <a className="facebok" href="https://facebook.com"><FaFacebook /></a>
+                            <a className="twitter" href="https://twitter.com"><FaTwitter /></a>
+                            <a className="youtube" href="https://youtube.com"><FaYoutube /></a>
+                            <a className="linkedin" href="https://linkedin.com"><FaLinkedin /></a>
                         </div>
                     </div>
                     <div className="pe-3 pt-3">

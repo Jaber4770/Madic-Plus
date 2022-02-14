@@ -1,6 +1,17 @@
 .navIcon{
     width: 35px;
 }
+.navbar{
+    padding: 0;
+    margin: 0;
+}
 .bg-clr{
-    border-bottom: 2px solid #262f36;
+    border-bottom: 4px solid #262f36;
+}
+.nav-item{
+    height: 56px;
+}
+.nav-item:hover{
+    background-color: #262f36;
+    color: white;
 }
