@@ -11,6 +11,7 @@ const Service = ({service}) => {
         <div className='border'>
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={image} />
+                <h1>{image}</h1>
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
                     <Card.Text>{description}</Card.Text>

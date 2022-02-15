@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react';
+import { Container } from 'react-bootstrap';
 import Service from '../Service/Service';
 
 const Services = () => {
-    const [service, setService] = useState([]);
+    const [services, setServices] = useState([]);
 
     useEffect(() => {
         fetch('https://jaber4770.github.io/Medic-Plus-Services-Data/ServicesData.json')
             .then(res => res.json())
-            .then(data => setService(data))
+            .then(data => setServices(data))
     }, [])
-
     return (
         <div>
             <div>
@@ -17,12 +17,14 @@ const Services = () => {
                 <p>Take our best services with free of cost!</p>
             </div>
             <div>
-                {
-                    service.map( service => <Service
-                    key={service.id}
-                    service={service}
-                    ></Service>)
-                }
+                <Container>
+                    {
+                        services.map(service => <Service
+                            key={service.id}
+                            service={service}
+                        ></Service>)
+                    }
+                </Container>
             </div>
         </div>
     );
