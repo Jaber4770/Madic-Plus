@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Service from '../Service/Service';
 
 const Services = () => {
     const [service, setService] = useState([]);
@@ -16,7 +17,12 @@ const Services = () => {
                 <p>Take our best services with free of cost!</p>
             </div>
             <div>
-                
+                {
+                    service.map( service => <Service
+                    key={service.id}
+                    service={service}
+                    ></Service>)
+                }
             </div>
         </div>
     );
