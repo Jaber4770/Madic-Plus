@@ -1,45 +1,8 @@
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
-import { GiKidneys } from "react-icons/gi";
-
-const servicesData = [
-    {
-        name: "Dental",
-        id: "1",
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing.',
-        image: 'FaTooth'
-    },
-    {
-        name: "Cardiology",
-        id: "2",
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing.',
-        image: 'GiKidneys'
-    },
-    {
-        name: "Neurology",
-        id: "3",
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing.',
-        image: ''
-    },
-    {
-        name: "service1",
-        id: "4",
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing.',
-        image: ''
-    },
-    {
-        name: "service1",
-        id: "5",
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing.',
-        image: ''
-    },
-    {
-        name: "service1",
-        id: "6",
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing.',
-        image: ''
-    }
-]
+import { GiKidneys, GiBrain, GiBrokenBone } from "react-icons/gi";
+import { BiBone } from "react-icons/bi";
+import { MdPregnantWoman } from "react-icons/md";
 
 
 const Service = () => {
