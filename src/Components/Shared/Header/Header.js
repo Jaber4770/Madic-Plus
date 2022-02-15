@@ -5,11 +5,11 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 const Header = () => {
     return (
         <>
-            <Navbar sticky="top" variant="light" className='bg-clr'>
+            <Navbar sticky="top" bg='light' variant="light" className='bg-clr'>
                 <Container>
                     <Navbar.Brand href="#home">
                         <img className='navIcon' src="https://i.ibb.co/xjfw99d/free-downloads-medical-clipart-640290.png" alt="" />
-                        Medic Plus
+                        <h3 className='navBrand'>Medic Plus</h3>
                     </Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">

@@ -1,21 +1,22 @@
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
+import { GiKidneys } from "react-icons/gi";
 
 const servicesData = [
     {
-        name: "service1",
+        name: "Dental",
         id: "1",
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing.',
-        image: ''
+        image: 'FaTooth'
     },
     {
-        name: "service1",
+        name: "Cardiology",
         id: "2",
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing.',
-        image: ''
+        image: 'GiKidneys'
     },
     {
-        name: "service1",
+        name: "Neurology",
         id: "3",
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing.',
         image: ''
@@ -37,37 +38,13 @@ const servicesData = [
         id: "6",
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing.',
         image: ''
-    },
-    {
-        name: "service1",
-        id: "7",
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing.',
-        image: ''
-    },
-    {
-        name: "service1",
-        id: "8",
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing.',
-        image: ''
-    },
-    {
-        name: "service1",
-        id: "9",
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing.',
-        image: ''
-    },
-    {
-        name: "service1",
-        id: "10",
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing.',
-        image: ''
-    },
+    }
 ]
 
 
 const Service = () => {
     return (
-        <div>
+        <div className='border'>
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src="holder.js/100px180" />
                 <Card.Body>
