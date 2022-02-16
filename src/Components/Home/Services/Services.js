@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 import Service from '../Service/Service';
 
 const Services = () => {
-    const [services, setServices] = useState([]);
+    const [services, setServices] = useState({});
 
     useEffect(() => {
         fetch('https://jaber4770.github.io/Medic-Plus-Services-Data/ServicesData.json')
@@ -12,20 +12,20 @@ const Services = () => {
     }, [])
     return (
         <div>
-            <div>
-                <h2>We Specialize In</h2>
-                <p>Take our best services with free of cost!</p>
-            </div>
-            <div>
-                <Container>
+            <Container>
+                <div>
+                    <h2>We Specialize In</h2>
+                    <p>Take our best services with free of cost!</p>
+                </div>
+                <div>
                     {
                         services.map(service => <Service
                             key={service.id}
                             service={service}
                         ></Service>)
                     }
-                </Container>
-            </div>
+                </div>
+            </Container>
         </div>
     );
 };

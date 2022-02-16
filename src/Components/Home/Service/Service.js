@@ -9,6 +9,7 @@ const Service = ({service}) => {
     const [name, description, image] = service;
     return (
         <div className='border'>
+            <h1>hello world</h1>
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={image} />
                 <h1>{image}</h1>
