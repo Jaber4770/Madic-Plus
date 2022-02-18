@@ -16,7 +16,7 @@ const Service = ({service}) => {
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
                     <Card.Text>{description}</Card.Text>
-                    <Button variant="primary">Details</Button>
+                    <Button variant="primary">Service Details</Button>
                 </Card.Body>
             </Card>
         </div>
