@@ -3,13 +3,12 @@ import { Button, Card } from 'react-bootstrap';
 import { GiKidneys, GiBrain, GiBrokenBone } from "react-icons/gi";
 import { BiBone } from "react-icons/bi";
 import { MdPregnantWoman } from "react-icons/md";
-import "./Service.css"
 
 
 const Service = ({service}) => {
     const {name, description, image} = service;
     return (
-        <div className='border'>
+        <div>
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={image} />
                 <h1>{image}</h1>
