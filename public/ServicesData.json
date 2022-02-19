@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Dental",
+        "id": "1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+        "icon": "FaTooth"
+    },
+    {
+        "name": "Cardiology",
+        "id": "2",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+        "icon": "GiKidneys"
+    },
+    {
+        "name": "Neurology",
+        "id": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+        "icon": "GiBrain"
+    },
+    {
+        "name": "Bond Binding",
+        "id": "4",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+        "icon": "BiBone"
+    },
+    {
+        "name": "X-Ray",
+        "id": "5",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+        "icon": "GiBrokenBone"
+    },
+    {
+        "name": "Pregnency",
+        "id": "6",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+        "icon": "MdPregnantWoman"
+    }
+]

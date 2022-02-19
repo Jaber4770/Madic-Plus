@@ -6,11 +6,11 @@ import { MdPregnantWoman } from "react-icons/md";
 
 
 const Service = ({service}) => {
-    const {name, description, image} = service;
+    const {name, description, icon} = service;
     return (
         <div>
             <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={image} />
+                <h1>{icon}</h1>
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
                     <Card.Text>{description}</Card.Text>

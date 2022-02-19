@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Container } from 'react-bootstrap';
 import Service from '../Service/Service';
+import './Services.css'
 
 const Services = () => {
     const [services, setServices] = useState([]);
@@ -13,7 +14,7 @@ const Services = () => {
     return (
         <div>
             <Container>
-                <div className='border'>
+                <div className='margin-top-botm'>
                     <div>
                         <h2>We Specialize In</h2>
                         <p>Take our best services with free of cost!</p>
