@@ -5,12 +5,12 @@ import { BiBone } from "react-icons/bi";
 import { MdPregnantWoman } from "react-icons/md";
 
 
-const Service = ({service}) => {
-    const {name, description, icon} = service;
+const Service = ({ service }) => {
+    const { name, description, icon } = service;
     return (
         <div>
             <Card style={{ width: '18rem' }}>
-                <h1>{icon}</h1>
+                {icon}
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
                     <Card.Text>{description}</Card.Text>
