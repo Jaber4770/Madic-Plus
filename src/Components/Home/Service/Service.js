@@ -9,15 +9,7 @@ const Service = ({service}) => {
     const [name, description, image] = service;
     return (
         <div className='border'>
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={image} />
-                <h1>{image}</h1>
-                <Card.Body>
-                    <Card.Title>{name}</Card.Title>
-                    <Card.Text>{description}</Card.Text>
-                    <Button variant="primary">Service Details</Button>
-                </Card.Body>
-            </Card>
+            <h1>hellow world</h1>
         </div>
     );
 };

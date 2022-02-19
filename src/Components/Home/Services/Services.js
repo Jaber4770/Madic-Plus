@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 import Service from '../Service/Service';
 
 const Services = () => {
-    const [services, setServices] = useState({});
+    const [services, setServices] = useState([]);
 
     useEffect(() => {
         fetch('https://jaber4770.github.io/Medic-Plus-Services-Data/ServicesData.json')
