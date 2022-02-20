@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Card } from 'react-bootstrap';
+import { Button, Card, CardGroup } from 'react-bootstrap';
 
 
 const Service = ({ service }) => {
