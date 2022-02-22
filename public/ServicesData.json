@@ -3,7 +3,7 @@
         "name": "Dental",
         "id": "1",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing.",
-        "icon": "<FaTooth />"
+        "icon": "<FaTooth/>"
     },
     {
         "name": "Cardiology",
