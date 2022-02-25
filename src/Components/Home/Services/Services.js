@@ -7,7 +7,7 @@ const Services = () => {
     const [services, setServices] = useState([]);
 
     useEffect(() => {
-        fetch('./ServicesData.json')
+        fetch('https://jaber4770.github.io/Medic-Plus-Services-Data/ServicesData.json')
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])
