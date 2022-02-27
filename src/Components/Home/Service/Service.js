@@ -6,19 +6,19 @@ const Service = ({ service }) => {
     const { name, description, icon } = service;
     return (
         <div>
-            <Card style={{ width: '18rem', height: '100%' }}>
+            <Card style={{ width: '20rem', height: '100%' }}>
+                <div className='icon-div'>
+                    <h1 className={icon}> </h1>
+                </div>
                 <Card.Body>
-                    <div>
-                        <h1 className={icon}> </h1>
-                    </div>
-                    <Card.Title>
-                        <h3>{name}</h3>
-                    </Card.Title>
+                    <Card.Title><h3>{name}</h3></Card.Title>
                     <Card.Text>
                         {description}
                     </Card.Text>
-                    <Button variant="primary">Service Details</Button>
                 </Card.Body>
+                <Card.Footer>
+                    <Button variant="primary">Service Details</Button>
+                </Card.Footer>
             </Card>
         </div>
     );

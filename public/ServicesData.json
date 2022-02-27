@@ -10,19 +10,19 @@
         "name": "Cardiology",
         "id": "2",
         "description": "Cardiology is a medical specialty and a branch of internal medicine concerned with disorders of the heart. It deals with the diagnosis and treatment of such conditions as congenital heart defects, coronary artery disease, electrophysiology, heart failure and valvular heart disease.",
-        "icon": "fas fa-kidneys"
+        "icon": "fas fa-hand-holding-heart"
     },
     {
         "name": "Neurology",
         "id": "3",
         "description": "Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system. The nervous system is a complex, sophisticated system that regulates and coordinates body activities. It has two major divisions: Central nervous system: the brain and spinal cord.",
-        "icon": "fas fa-head-side-brain"
+        "icon": "fas fa-brain"
     },
     {
         "name": "Bond Binding",
         "id": "4",
         "description": "Molecular binding is an attractive interaction between two molecules that results in a stable association in which the molecules are in close proximity to each other. It is formed when atoms or molecules bind together by sharing of electrons. It often, but not always, involves some chemical bonding.",
-        "icon": "fas fa-bone-break"
+        "icon": "fas fa-bone"
     },
     {
         "name": "X-Ray",
