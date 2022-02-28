@@ -14,10 +14,10 @@ const OurDoctors = () => {
 
 
     return (
-        <div>
+        <div className='mb-3 overflow-hidden'>
             <h1>Meet Our Doctors</h1>
             <p>Everyone is an expert in their field.</p>
-            <div className='card-position'>
+            <div className='doctor-card-position'>
                 {
                     DoctorData.map(data => <Doctor
                         key={data.id}

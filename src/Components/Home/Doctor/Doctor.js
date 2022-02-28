@@ -15,7 +15,7 @@ const Doctor = ({ DoctorData }) => {
                 </Card.Body>
             </Card>
         </div>
-        
+
     );
 };
 
