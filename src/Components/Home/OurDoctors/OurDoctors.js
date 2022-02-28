@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Container } from 'react-bootstrap';
 import Doctor from '../Doctor/Doctor';
 import "./OurDoctors.css"
 
@@ -14,17 +15,19 @@ const OurDoctors = () => {
 
 
     return (
-        <div className='mb-3 overflow-hidden'>
-            <h1>Meet Our Doctors</h1>
-            <p>Everyone is an expert in their field.</p>
-            <div className='doctor-card-position'>
-                {
-                    DoctorData.map(data => <Doctor
-                        key={data.id}
-                        DoctorData={data}
-                    ></Doctor>)
-                }
-            </div>
+        <div className='mb-3'>
+            <Container>
+                <h1>Meet Our Doctors</h1>
+                <p>Everyone is an expert in their field.</p>
+                <div className='doctor-card-position'>
+                    {
+                        DoctorData.map(data => <Doctor
+                            key={data.id}
+                            DoctorData={data}
+                        ></Doctor>)
+                    }
+                </div>
+            </Container>
         </div>
     );
 };
