@@ -6,7 +6,7 @@ const Service = ({ service }) => {
     const { name, description, icon } = service;
     return (
         <div>
-            <Card style={{ width: '20rem', height: '100%' }}>
+            <Card className='card-hover' style={{ width: '20rem', height: '100%' }}>
                 <div className='icon-div'>
                     <h1 className={icon}> </h1>
                 </div>
@@ -17,7 +17,7 @@ const Service = ({ service }) => {
                     </Card.Text>
                 </Card.Body>
                 <div className='card-footer-btm'>
-                    <Button variant="primary">Service Details</Button>
+                    <Button className='btn-hover' variant="primary">Service Details</Button>
                 </div>
             </Card>
         </div>

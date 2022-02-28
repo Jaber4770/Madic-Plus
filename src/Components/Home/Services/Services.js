@@ -15,7 +15,6 @@ const Services = () => {
                 <div className='margin-top-botm'>
                     <div>
                         <h2>We Specialize In</h2>
-                        <i class="fa-solid fa-kidneys"></i>
                         <p>Take our best services with free of cost!</p>
                     </div>
                     <div className='card-position'>
