@@ -6,13 +6,11 @@ const AppointmentForm = () => {
     const onSubmit = data => console.log(data);
     return (
         <div>
-            {/*  "handleSubmit" will validate your inputs before invoking "onSubmit" */}
             <form onSubmit={handleSubmit(onSubmit)}>
-                {/* register your input into the hook by invoking the "register" function */}
                 <input defaultValue="Name" {...register("Name", { required: true })} />
-
-                {/* include validation with required or other standard HTML validation rules */}
                 <input defaultValue="Phone" {...register("Phone", { required: true })} />
+                <input defaultValue="Appointment Date" {...register("Appointment-Date", { required: true })} />
+                <input defaultValue="Appointment Time" {...register("Appointment-Time", { required: true })} />
                 {/* errors will return when field validation fails  */}
                 {errors.exampleRequired && <span>This field is required</span>}
                 <input type="submit" />
