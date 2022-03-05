@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Container } from 'react-bootstrap';
 import Service from '../Service/Service';
 import './Services.css'
 
@@ -11,21 +12,25 @@ const Services = () => {
             .then(data => setServices(data))
     }, [])
     return (
-        <div className='center'>
-            <div className='margin-top-botm text-center'>
-                <div>
-                    <h2>We Specialize In</h2>
-                    <p>Take our best services with free of cost!</p>
+        <div>
+            <Container>
+                <div className='center'>
+                    <div className='margin-top-botm text-center'>
+                        <div>
+                            <h2>We Specialize In</h2>
+                            <p>Take our best services with free of cost!</p>
+                        </div>
+                        <div className='card-position'>
+                            {
+                                services.map(service => <Service
+                                    key={service.id}
+                                    service={service}
+                                ></Service>)
+                            }
+                        </div>
+                    </div>
                 </div>
-                <div className='card-position'>
-                    {
-                        services.map(service => <Service
-                            key={service.id}
-                            service={service}
-                        ></Service>)
-                    }
-                </div>
-            </div>
+            </Container>
         </div>
     );
 };

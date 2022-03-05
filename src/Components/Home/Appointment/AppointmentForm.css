@@ -1,7 +1,18 @@
+.form-bg{
+    background-image: url(https://img.freepik.com/free-vector/medical-background-with-flat-icons-symbols_120542-353.jpg?w=900);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .appointment{
     margin: 10px;
 }
 .form{
     display: flex;
     flex-wrap: wrap;
+}
+.appointment-title{
+    height: 100px;
+}
+.appointment-date{
+    display: block;
 }

@@ -15,17 +15,21 @@ const OurDoctors = () => {
 
 
     return (
-        <div className='mb-3 text-center'>
-            <h1>Meet Our Doctors</h1>
-            <p>Everyone is an expert in their field.</p>
-            <div className='doctor-card-position center'>
-                {
-                    DoctorData.map(data => <Doctor
-                        key={data.id}
-                        DoctorData={data}
-                    ></Doctor>)
-                }
-            </div>
+        <div>
+            <Container>
+                <div className='mb-3 text-center'>
+                    <h1>Meet Our Doctors</h1>
+                    <p>Everyone is an expert in their field.</p>
+                    <div className='doctor-card-position center'>
+                        {
+                            DoctorData.map(data => <Doctor
+                                key={data.id}
+                                DoctorData={data}
+                            ></Doctor>)
+                        }
+                    </div>
+                </div>
+            </Container>
         </div>
     );
 };
