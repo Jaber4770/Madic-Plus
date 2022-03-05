@@ -3,6 +3,9 @@
 }
 .notfound{
     text-align: center;
-    margin-bottom: 50px;
 }
-
+.back-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

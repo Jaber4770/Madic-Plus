@@ -5,11 +5,10 @@ import './NotFound.css'
 const NotFound = () => {
     return (
         <div className='notfound'>
-            <img className='img-width' src='https://i.ibb.co/YyG71Th/3819627.jpg' alt="" />
-            <br />
-            <Link to='/'>
-                <button>Go Back</button>
-            </Link>
+        <Link to='/'>
+            <button className='back-btn'>Go Back</button>
+        </Link>
+            <img className='img-width' src='https://i.ibb.co/0yXXr8H/3819627.png' alt="" />
         </div>
     );
 };
