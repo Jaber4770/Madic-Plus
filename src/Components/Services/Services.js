@@ -1,9 +1,14 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 
 const Services = () => {
     return (
         <div>
-            <h1>we provide this services</h1>
+            <Container>
+                <Container>
+                    <h1>we provide this services</h1>
+                </Container>
+            </Container>
         </div>
     );
 };
