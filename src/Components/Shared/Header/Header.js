@@ -14,12 +14,12 @@ const Header = () => {
                     </Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
-                        <HashLink className='nav-item' to="#home">Home</HashLink>
-                        <HashLink className='nav-item' to="#services">Services</HashLink>
-                        <HashLink className='nav-item' to="#appointment">Appointment</HashLink>
-                        <HashLink className='nav-item' to="#emergency">Emergency</HashLink>
-                        <HashLink className='nav-item' to="#about">About</HashLink>
-                        <HashLink className='nav-item' to="#login">Login</HashLink>
+                        <Nav.Link as={HashLink} className='nav-item' to="/home">Home</Nav.Link>
+                        <Nav.Link as={HashLink} className='nav-item' to="/services">Services</Nav.Link>
+                        <Nav.Link as={HashLink} className='nav-item' to="/appointment">Appointment</Nav.Link>
+                        <Nav.Link as={HashLink} className='nav-item' to="/emergency">Emergency</Nav.Link>
+                        <Nav.Link as={HashLink} className='nav-item' to="/about">About</Nav.Link>
+                        <Nav.Link as={HashLink} className='nav-item' to="/login">Login</Nav.Link>
                         <Navbar.Text>
                             <p>Signed in as: sijan</p>
                         </Navbar.Text>
