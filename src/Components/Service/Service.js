@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
+import './Service.css'
 
 const Service = ({ service }) => {
     const { name, img, description } = service
@@ -12,7 +13,7 @@ const Service = ({ service }) => {
                     <Card.Text>
                         <p className='pera-center'>{description}</p>
                     </Card.Text>
-                    <div className='card-footer-btm'>
+                    <div className='btn-bottom'>
                         <Button className='btn-hover' variant="primary">Details</Button>
                     </div>
                 </Card.Body>
