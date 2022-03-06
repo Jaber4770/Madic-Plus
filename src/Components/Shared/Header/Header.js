@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Header.css"
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
     return (
@@ -13,12 +14,12 @@ const Header = () => {
                     </Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
-                        <Nav.Link className='nav-item' href="#home">Home</Nav.Link>
-                        <Nav.Link className='nav-item' href="#services">Services</Nav.Link>
-                        <Nav.Link className='nav-item' href="#appointment">Appointment</Nav.Link>
-                        <Nav.Link className='nav-item' href="#emergency">Emergency</Nav.Link>
-                        <Nav.Link className='nav-item' href="#about">About</Nav.Link>
-                        <Nav.Link className='nav-item' href="#login">Login</Nav.Link>
+                        <HashLink className='nav-item' to="#home">Home</HashLink>
+                        <HashLink className='nav-item' to="#services">Services</HashLink>
+                        <HashLink className='nav-item' to="#appointment">Appointment</HashLink>
+                        <HashLink className='nav-item' to="#emergency">Emergency</HashLink>
+                        <HashLink className='nav-item' to="#about">About</HashLink>
+                        <HashLink className='nav-item' to="#login">Login</HashLink>
                         <Navbar.Text>
                             <p>Signed in as: sijan</p>
                         </Navbar.Text>
