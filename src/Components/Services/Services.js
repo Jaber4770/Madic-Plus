@@ -1,6 +1,104 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 
+
+
+const ourSerices = [
+    {
+        name: "Dental",
+        id: "1",
+        description: "Dentistry is the diagnosis, treatment, and prevention of conditions, disorders, and diseases of the teeth, gums, mouth, and jaw. Often considered necessary for complete oral health, dentistry can have an impact on the health of your entire body.",
+        icon: "fas fa-tooth"
+
+    },
+    {
+        name: "Cardiology",
+        id: "2",
+        description: "Cardiology is a medical specialty and a branch of internal medicine concerned with disorders of the heart. It deals with the diagnosis and treatment of such conditions as congenital heart defects, coronary artery disease, electrophysiology, heart failure and valvular heart disease.",
+        icon: "fas fa-hand-holding-heart"
+    },
+    {
+        name: "Neurology",
+        id: "3",
+        description: "Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system. The nervous system is a complex, sophisticated system that regulates and coordinates body activities. It has two major divisions: Central nervous system: the brain and spinal cord.",
+        icon: "fas fa-brain"
+    },
+    {
+        name: "Bond Binding",
+        id: "4",
+        description: "Molecular binding is an attractive interaction between two molecules that results in a stable association in which the molecules are in close proximity to each other. It is formed when atoms or molecules bind together by sharing of electrons. It often, but not always, involves some chemical bonding.",
+        icon: "fas fa-bone"
+    },
+    {
+        name: "X-Ray",
+        id: "5",
+        description: "An X-ray is a quick, painless test that produces images of the structures inside your body — particularly your bones. X-ray beams pass through your body, and they are absorbed in different amounts depending on the density of the material they pass through.",
+        icon: "fas fa-x-ray"
+    },
+    {
+        name: "Pregnency",
+        id: "6",
+        description: "Pregnancy is the term used to describe the period in which a fetus develops inside a woman's womb or uterus. Pregnancy usually lasts about 40 weeks, or just over 9 months, as measured from the last menstrual period to delivery. Health care providers refer to three segments of pregnancy, called trimesters.",
+        icon: "fas fa-female"
+    },
+    {
+        id: '7',
+        name: 'name',
+        img: '',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ipsam! Maxime est sit inventore ex. Sequi dolore eveniet iure beatae?'
+    },
+    {
+        id: '8',
+        name: 'name',
+        img: '',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ipsam! Maxime est sit inventore ex. Sequi dolore eveniet iure beatae?'
+    },
+    {
+        id: '9',
+        name: 'name',
+        img: '',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ipsam! Maxime est sit inventore ex. Sequi dolore eveniet iure beatae?'
+    },
+    {
+        id: '10',
+        name: 'name',
+        img: '',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ipsam! Maxime est sit inventore ex. Sequi dolore eveniet iure beatae?'
+    },
+    {
+        id: '11',
+        name: 'name',
+        img: '',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ipsam! Maxime est sit inventore ex. Sequi dolore eveniet iure beatae?'
+    },
+    {
+        id: '12',
+        name: 'name',
+        img: '',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ipsam! Maxime est sit inventore ex. Sequi dolore eveniet iure beatae?'
+    },
+    {
+        id: '13',
+        name: 'name',
+        img: '',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ipsam! Maxime est sit inventore ex. Sequi dolore eveniet iure beatae?'
+    },
+    {
+        id: '14',
+        name: 'name',
+        img: '',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ipsam! Maxime est sit inventore ex. Sequi dolore eveniet iure beatae?'
+    },
+    {
+        id: '15',
+        name: 'name',
+        img: '',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ipsam! Maxime est sit inventore ex. Sequi dolore eveniet iure beatae?'
+    },
+]
+
+
+
 const Services = () => {
     return (
         <div>
