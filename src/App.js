@@ -7,6 +7,11 @@ import { BrowserRouter } from 'react-router-dom';
 import { Switch } from 'react-router-dom';
 import { Route } from 'react-router-dom';
 import NotFound from './Components/NotFound/NotFound';
+import About from './Components/About/About';
+import Appointment from './Components/Appointment/Appointment';
+import Emergency from './Components/Emergency/Emergency';
+import Services from './Components/Services/Services';
+import Login from './Components/Login/Login';
 
 function App() {
   return (
@@ -21,19 +26,19 @@ function App() {
             <Home></Home>
           </Route>
           <Route path='/about'>
-
+            <About></About>
           </Route>
           <Route path='/appointment'>
-
+            <Appointment></Appointment>
           </Route>
           <Route path='/emergency'>
-
+            <Emergency></Emergency>
           </Route>
           <Route path='/services'>
-
+            <Services></Services>
           </Route>
           <Route path='/login'>
-
+            <Login></Login>
           </Route>
           <Route path='*'>
             <NotFound></NotFound>
