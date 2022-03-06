@@ -2,9 +2,6 @@
     width: 60%;
 }
 .notfound{
-    text-align: center;
-}
-.back-btn{
     display: flex;
     justify-content: center;
     align-items: center;

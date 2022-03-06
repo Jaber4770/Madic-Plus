@@ -14,11 +14,11 @@ const Header = () => {
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                         <Nav.Link className='nav-item' href="#home">Home</Nav.Link>
-                        <Nav.Link className='nav-item' href="#home">Services</Nav.Link>
-                        <Nav.Link className='nav-item' href="#home">Appointment</Nav.Link>
-                        <Nav.Link className='nav-item' href="#home">Emergency</Nav.Link>
-                        <Nav.Link className='nav-item' href="#home">About</Nav.Link>
-                        <Nav.Link className='nav-item' href="#home">Login</Nav.Link>
+                        <Nav.Link className='nav-item' href="#services">Services</Nav.Link>
+                        <Nav.Link className='nav-item' href="#appointment">Appointment</Nav.Link>
+                        <Nav.Link className='nav-item' href="#emergency">Emergency</Nav.Link>
+                        <Nav.Link className='nav-item' href="#about">About</Nav.Link>
+                        <Nav.Link className='nav-item' href="#login">Login</Nav.Link>
                         <Navbar.Text>
                             <p>Signed in as: sijan</p>
                         </Navbar.Text>
