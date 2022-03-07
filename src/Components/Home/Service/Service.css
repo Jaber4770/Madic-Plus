@@ -7,9 +7,10 @@
 }
 .pera-center{
     text-align: justify;
+    margin: 0;
 }
 .card-footer-btm{
-    padding: 0.5rem 1rem;
+    padding-bottom: 0.5rem;
 }
 .card-hover:hover{
     background-color: rgb(102, 167, 252);
