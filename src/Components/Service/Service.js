@@ -13,10 +13,10 @@ const Service = ({ service }) => {
                     <Card.Text>
                         <p className='pera-center'>{description}</p>
                     </Card.Text>
-                    <div className='btn-bottom'>
-                        <Button className='btn-hover' variant="primary">Details</Button>
-                    </div>
                 </Card.Body>
+                <div className='card-footer-btm'>
+                    <Button className='btn-hover' variant="primary">Details</Button>
+                </div>
             </Card>
         </div>
     );
