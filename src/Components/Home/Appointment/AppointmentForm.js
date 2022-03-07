@@ -13,20 +13,25 @@ const AppointmentForm = () => {
                     <div>
                         <img src="http://asianitbd.com/wp/hopemedical/wp-content/uploads/2016/10/image-forlift.png" alt="" />
                     </div>
-                    <form className='form' onSubmit={handleSubmit(onSubmit)}>
-                        <h1 className='text-center appointment-title mt-5 mb-4'>Appointment</h1>
-                        <input placeholder='Name' className='appointment appointment-name' {...register("Name", { required: true })} />
-                        <input placeholder='Phone' className='appointment appointment-phone' {...register("Phone", { required: true })} />
-                        <br />
-                        <input className='appointment appointment-date'
-                            type="date" {...register("Appointment-Date", { required: true })} />
-                        <br />
-                        <input placeholder='Time' className='appointment appointment-time' {...register("Appointment-Time", { required: true })} />
-                        <input placeholder='Your problem' className='appointment appointment-problem' {...register("Problem", { required: true })} />
-                        {/* errors will return when field validation fails  */}
-                        {errors.exampleRequired && <span>This field is required</span>}
-                        <input className='appointment' type="submit" />
-                    </form>
+
+                    <div>
+                        <div>
+                            <h1 className='text-center appointment-title mt-5 mb-4'>Appointment</h1>
+                        </div>
+                        <form className='form' onSubmit={handleSubmit(onSubmit)}>
+                            <input placeholder='Name' className='appointment appointment-name' {...register("Name", { required: true })} />
+                            <input placeholder='Phone' className='appointment appointment-phone' {...register("Phone", { required: true })} />
+                            <br />
+                            <input className='appointment appointment-date'
+                                type="date" {...register("Appointment-Date", { required: true })} />
+                            <br />
+                            <input placeholder='Time' className='appointment appointment-time' {...register("Appointment-Time", { required: true })} />
+                            <input placeholder='Your problem' className='appointment appointment-problem' {...register("Problem", { required: true })} />
+                            {/* errors will return when field validation fails  */}
+                            {errors.exampleRequired && <span>This field is required</span>}
+                            <input className='appointment' type="submit" />
+                        </form>
+                    </div>
                 </div>
             </Container>
         </div>

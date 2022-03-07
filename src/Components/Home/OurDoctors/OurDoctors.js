@@ -15,7 +15,7 @@ const OurDoctors = () => {
 
 
     return (
-        <div>
+        <div className='font-family'>
             <Container>
                 <div className='mb-3 text-center'>
                     <h1>Meet Our Doctors</h1>
