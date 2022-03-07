@@ -2,3 +2,15 @@
     text-align: center;
     margin-bottom: 50px;
 }
+.heading-underline{
+    position: relative;
+}
+.underline::after{
+    content: "";
+    width: 500px;
+    height: 2px;
+    position: absolute;
+    left: 25%;
+    bottom: -5px;
+    background-color: black;
+}
