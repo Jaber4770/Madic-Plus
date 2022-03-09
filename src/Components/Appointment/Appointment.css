@@ -1,3 +1,8 @@
+.form-bg{
+    background-image: url(https://i.ibb.co/bmX3knZ/form-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .span-color{
     color: red;
 }
@@ -13,8 +18,15 @@
     bottom: -7px;
     left: 30%;
 }
+.form-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .input{
     width: 350px;
     outline: none;
-
+}
+.problem-box{
+    height: 100px;
 }
