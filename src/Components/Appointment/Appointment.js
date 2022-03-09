@@ -16,9 +16,11 @@ const Appointment = () => {
                     <label htmlFor="Name">Name: </label>
                     <input className='input ' {...register("Name")} placeholder="Name" />
                     <label htmlFor="Phone">Phone: </label>
-                    <input className='input ' {...register("Phone")} placeholder="Phone" />
+                    <input className='input ' {...register("Phone")} placeholder="Phone" /><br />
                     <label htmlFor="Email">Email: </label>
-                    <input className='input ' {...register("Email")} placeholder="Email" />
+                    <input className='input ' {...register("Email")} placeholder="Email" /><br />
+                    <label htmlFor="Address">Address: </label>
+                    <input className='input ' {...register("Address")} placeholder="Address" /><br />
                     <label htmlFor="problem">Your Problem: </label>      
                     <textarea className='input ' {...register("Describe your problem")} placeholder="About you" />
                     <p>{data}</p>
