@@ -1,5 +1,5 @@
 .form-bg{
-    background-image: url(https://img.freepik.com/free-vector/medical-background-with-flat-icons-symbols_120542-353.jpg?w=900);
+    background-image: url(https://i.ibb.co/YR8TNbL/26807-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Oswald', sans-serif;
@@ -12,6 +12,19 @@
     display: flex;
     flex-wrap: wrap;
 }
+.appointment-name{
+
+}
+.appointment-phone{
+
+}
 .appointment-date{
-    display: block;
+
+}
+.appointment-time{
+
+}
+.appointment-problem{
+    height: 100px;
+    width: 400px;
 }
