@@ -26,6 +26,9 @@
 .input{
     width: 350px;
     outline: none;
+    border-radius: 3px;
+    border: none;
+    padding: 5px;
 }
 .problem-box{
     height: 100px;
