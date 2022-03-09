@@ -13,7 +13,6 @@ const Appointment = () => {
                     <h1 className='text-center mb-3'>Take your <span className='span-color span-underline'>Appointment</span></h1>
                 </div>
                 <form onSubmit={handleSubmit((data) => setData(JSON.stringify(data)))}>
-                    <Header />
                     <input {...register("firstName")} placeholder="First name" />
                     <select {...register("category")}>
                         <option value="">Select...</option>
