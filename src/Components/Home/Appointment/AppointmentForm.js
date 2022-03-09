@@ -16,7 +16,7 @@ const AppointmentForm = () => {
 
                     <div>
                         <div>
-                            <h1 className='text-center appointment-title mt-5 mb-4'>Appointment</h1>
+                            <h1 className='text-center appointment-title mt-5 mb-4 span-color'>Appointment</h1>
                         </div>
                         <form className='form' onSubmit={handleSubmit(onSubmit)}>
                             <input placeholder='Name' className='appointment appointment-name' {...register("Name", { required: true })} />

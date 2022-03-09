@@ -20,7 +20,7 @@ const Services = () => {
                 </div>
                 <Container>
                     <div className='heading-underline'>
-                        <h1 className='my-4 underline'>Our best <span>services</span> for you.</h1>
+                        <h1 className='my-4 underline'>Our best <span className='span-color'>services</span> for you.</h1>
                     </div>
                     <div className='card-position'>
                         {

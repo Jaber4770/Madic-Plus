@@ -1,0 +1,15 @@
+.span-color{
+    color: red;
+}
+.appointment-heading{
+    position: relative;
+}
+.span-underline::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 470px;
+    background-color: rgb(0, 0, 0);
+    bottom: -7px;
+    left: 30%;
+}

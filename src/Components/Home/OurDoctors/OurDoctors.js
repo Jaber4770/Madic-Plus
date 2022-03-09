@@ -18,7 +18,7 @@ const OurDoctors = () => {
         <div className='font-family'>
             <Container>
                 <div className='mb-3 text-center'>
-                    <h1>Meet Our Doctors</h1>
+                    <h1>Meet Our <span className='span-color'>Doctors</span></h1>
                     <p>Everyone is an expert in their field.</p>
                     <div className='doctor-card-position center'>
                         {
