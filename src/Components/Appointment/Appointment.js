@@ -7,7 +7,7 @@ const Appointment = () => {
     const { register, handleSubmit } = useForm();
     const [data, setData] = useState("");
     return (
-        <div className='py-5 form-bg'>
+        <div className='py-5 app-form-bg'>
             <Container>
                 <div className='appointment-heading'>
                     <h1 className='text-center mb-3'>Take your <span className='span-color span-underline'>Appointment</span></h1>
@@ -32,8 +32,8 @@ const Appointment = () => {
                         <br />
                         <label htmlFor="problem">Your Problem: </label><br />
                         <textarea className='input problem-box' {...register("Problem")} placeholder="About you" />
-                        <p>{data}</p>
-                        <input type="submit" />
+                        <br />
+                        <input className='submit-btn' type="submit" />
                     </form>
                 </div>
             </Container>

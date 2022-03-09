@@ -3,6 +3,10 @@
     background-color: #262f36;
     font-family: 'Oswald', sans-serif;
 }
+.footer-center{
+    display: flex;
+    justify-content: center;
+}
 .social-icon a{
     font-size: 25px;
     margin-right: 10px;

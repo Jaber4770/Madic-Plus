@@ -32,7 +32,7 @@ const AppointmentForm = () => {
                             <textarea placeholder='Your problem' className='appointment appointment-problem' {...register("Problem", { required: true })}></textarea>
                             {/* errors will return when field validation fails  */}
                             {errors.exampleRequired && <span>This field is required</span>}
-                            <input className='submit' type="submit" />
+                            <input className='submit submit-btn' type="submit" />
                         </form>
                     </div>
                 </div>
