@@ -2,6 +2,7 @@
     background-image: url(https://i.ibb.co/bmX3knZ/form-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'Oswald', sans-serif;
 }
 .span-color{
     color: red;
@@ -40,4 +41,7 @@
     border-radius: 5px;
     margin-top: 10px;
     color: white;
+}
+.submit-btn:hover{
+    background-color: rgb(179, 3, 3);
 }
