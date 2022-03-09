@@ -15,12 +15,12 @@ const Services = () => {
     return (
         <div className='center'>
             <div className='service-center'>
-                <div>
-                    <img src="https://i.ibb.co/sCWVNMg/page-title-1.jpg" alt="" />
+                <div className='overlay'>
+                    <img src="" alt="" />
                 </div>
                 <Container>
                     <div className='heading-underline'>
-                        <h1 className='my-4 underline'>Our best services for you.</h1>
+                        <h1 className='my-4 underline'>Our best <span>services</span> for you.</h1>
                     </div>
                     <div className='card-position'>
                         {
