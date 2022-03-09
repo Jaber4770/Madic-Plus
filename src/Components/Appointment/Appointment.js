@@ -13,13 +13,10 @@ const Appointment = () => {
                     <h1 className='text-center mb-3'>Take your <span className='span-color span-underline'>Appointment</span></h1>
                 </div>
                 <form onSubmit={handleSubmit((data) => setData(JSON.stringify(data)))}>
-                    <input {...register("firstName")} placeholder="First name" />
-                    <select {...register("category")}>
-                        <option value="">Select...</option>
-                        <option value="A">Option A</option>
-                        <option value="B">Option B</option>
-                    </select>
-                    <textarea {...register("aboutYou")} placeholder="About you" />
+                    <input className='input ' {...register("Name")} placeholder="Name" />
+                    <input className='input ' {...register("Phone")} placeholder="Phone" />                 
+                    <input className='input ' {...register("Email")} placeholder="Email" />                 
+                    <textarea className='input ' {...register("Describe your problem")} placeholder="About you" />
                     <p>{data}</p>
                     <input type="submit" />
                 </form>

@@ -19,14 +19,17 @@ const AppointmentForm = () => {
                             <h1 className='text-center appointment-title mt-5 mb-4 span-color'>Appointment</h1>
                         </div>
                         <form className='form' onSubmit={handleSubmit(onSubmit)}>
+                            <label htmlFor="Name">Name</label> <br />
                             <input placeholder='Name' className='appointment appointment-name' {...register("Name", { required: true })} />
+                            <label htmlFor="Name">Phone</label> <br />
                             <input placeholder='Phone' className='appointment appointment-phone' {...register("Phone", { required: true })} />
                             <br />
+                            <label htmlFor="date">Date</label>
                             <input className='appointment appointment-date'
-                                type="date" {...register("Appointment-Date", { required: true })} />
-                            <br />
+                                type="date" {...register("Appointment-Date", { required: true })} /> <br />
+                            <label htmlFor="Time">Time</label>
                             <input placeholder='Time' className='appointment appointment-time' {...register("Appointment-Time", { required: true })} />
-                            <input placeholder='Your problem' className='appointment appointment-problem' {...register("Problem", { required: true })} />
+                            <textarea placeholder='Your problem' className='appointment appointment-problem' {...register("Problem", { required: true })}></textarea>
                             {/* errors will return when field validation fails  */}
                             {errors.exampleRequired && <span>This field is required</span>}
                             <input className='appointment' type="submit" />
