@@ -15,7 +15,7 @@ const AppointmentForm = () => {
                     </div>
 
                     <div>
-                        <div>
+                        <div className='appointment-head'>
                             <h1 className='text-center appointment-title mt-5 mb-4 span-color'>Appointment</h1>
                         </div>
                         <form className='form' onSubmit={handleSubmit(onSubmit)}>
