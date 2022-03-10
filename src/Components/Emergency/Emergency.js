@@ -5,9 +5,12 @@ import "./Emergency.css";
 const Emergency = () => {
     return (
         <div>
-            <img className='amblance-banner-img' src="https://i.ibb.co/HdKn2Hp/ambulance-banner.webp" alt="" />
+            <div className='emergency-bg'>
+                <div className='overlay'>
+                    <h1 className='mt-4 mb-3 text-center emergency-heading'>24/7 We are <span className='span-color'>ready</span> for your call!</h1>
+                </div>
+            </div>
             <Container>
-                <h1 className='my-3 text-center'>24/7 We are ready for your call!</h1>
                 <div>
                     <img src="https://i.ibb.co/5Y20BkS/ambulance-concept-illustration-114360-7051.jpg" alt="" />
                 </div>
