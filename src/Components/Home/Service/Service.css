@@ -13,7 +13,10 @@
     padding-bottom: 0.5rem;
 }
 .card-hover:hover{
-    background-color: rgb(102, 167, 252);
+    background-color: rgb(0, 48, 110);
+    color: white;
+}
+.card-hover:hover h1{
     color: white;
 }
 .btn-hover:hover{

@@ -16,9 +16,9 @@ const Services = () => {
             <Container>
                 <div className='center'>
                     <div className='margin-top-botm text-center'>
-                        <div>
+                        <div className='service-head'>
                             <h2>We <span className='span-color'>Specialize</span> In</h2>
-                            <p>Take our best services with free of cost!</p>
+                            <p className='p-underline'>Take our best services with free of cost!</p>
                         </div>
                         <div className='card-position'>
                             {
