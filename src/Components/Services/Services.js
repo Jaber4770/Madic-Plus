@@ -15,7 +15,7 @@ const Services = () => {
     return (
         <div className='center'>
             <div className='service-center'>
-                <div className='overlay'>
+                <div className='service-overlay'>
                     <img src="" alt="" />
                 </div>
                 <Container>

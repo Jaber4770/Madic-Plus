@@ -10,11 +10,11 @@ const Emergency = () => {
                     <h1 className='mt-4 mb-3 text-center emergency-heading'>24/7 We are <span className='span-color'>ready</span> for your call!</h1>
                 </div>
             </div>
-            <Container>
-                <div>
-                    <img src="https://i.ibb.co/5Y20BkS/ambulance-concept-illustration-114360-7051.jpg" alt="" />
-                </div>
-            </Container>
+            <div className='emergency-card-bg'>
+                <Container>
+
+                </Container>
+            </div>
         </div>
     );
 };
