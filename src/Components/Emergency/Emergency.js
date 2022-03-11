@@ -12,7 +12,7 @@ const Emergency = () => {
             </div>
             <div className='emergency-card-bg'>
                 <Container>
-
+                    
                 </Container>
             </div>
         </div>
