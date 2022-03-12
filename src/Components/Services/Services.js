@@ -13,24 +13,29 @@ const Services = () => {
 
 
     return (
-        <div className='center'>
-            <div className='service-center'>
-                <div className='service-overlay'>
-                    <img src="" alt="" />
+        <div>
+            <div>
+                <img className='service-banner' src="https://i.ibb.co/K6XGCD7/pharmacy-store-elements-set-33099-2359.jpg" alt="" />
+            </div>
+            <div className='center'>
+                <div className='service-center'>
+                    <div className='service-overlay'>
+                        <img src="" alt="" />
+                    </div>
+                    <Container>
+                        <div className='heading-underline'>
+                            <h1 className='my-4 underline'>Our best <span className='span-color'>services</span> for you.</h1>
+                        </div>
+                        <div className='card-position'>
+                            {
+                                Services.map(service => <Service
+                                    key={service.id}
+                                    service={service}
+                                ></Service>)
+                            }
+                        </div>
+                    </Container>
                 </div>
-                <Container>
-                    <div className='heading-underline'>
-                        <h1 className='my-4 underline'>Our best <span className='span-color'>services</span> for you.</h1>
-                    </div>
-                    <div className='card-position'>
-                        {
-                            Services.map(service => <Service
-                                key={service.id}
-                                service={service}
-                            ></Service>)
-                        }
-                    </div>
-                </Container>
             </div>
         </div>
     );
