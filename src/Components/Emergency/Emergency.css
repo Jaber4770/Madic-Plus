@@ -39,7 +39,8 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
     padding: 5% 0;
-    text-align: center;
+    text-align: justify;
+    
 }
 .emrgency-flex{
     display: flex;

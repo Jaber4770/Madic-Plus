@@ -1,14 +1,17 @@
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
+import "./EmerService.css"
 
 
-const EmerService = ({EmData}) => {
-    const {name, description, call, icon} = EmData;
+const EmerService = ({ EmData }) => {
+    const { name, description, call, icon } = EmData;
 
     return (
         <div>
             <Card style={{ width: '18rem', height: '100%' }}>
-                <h1 className={icon}> </h1>
+                <div className='em-card-icon'>
+                    <h1 className={icon}> </h1>
+                </div>
                 <Card.Body>
                     <Card.Title>< h3>{name}</h3>
                     </Card.Title>
