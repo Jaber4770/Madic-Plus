@@ -20,5 +20,17 @@
 .emergency-card-bg{
     background: url(https://i.ibb.co/nmf5gPf/14800.jpg);
     background-size: cover;
-    
+
+}
+.emergency-card-position{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 5% 0;
+    text-align: center;
+}
+.emrgency-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
