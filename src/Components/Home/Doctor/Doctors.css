@@ -1,0 +1,4 @@
+.doctors-card-hover:hover{
+    box-shadow: 0 0 10px 5px rgb(230, 230, 230);
+    transition: 0.3s;
+}
