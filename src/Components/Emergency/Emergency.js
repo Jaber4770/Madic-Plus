@@ -5,11 +5,11 @@ import EmerService from './EmerService/EmerService';
 
 const Emergency = () => {
     const [EmergencyData, setEmergencydata] = useState([]);
-    useEffect(()=> {
+    useEffect(() => {
         fetch('https://jaber4770.github.io/Medic-Plus-Services-Data/EmergencyData.json')
             .then(res => res.json())
             .then(data => setEmergencydata(data));
-    },[])
+    }, [])
 
     return (
         <div>
@@ -20,12 +20,14 @@ const Emergency = () => {
             </div>
             <div className='emergency-card-bg'>
                 <Container>
-                    {
-                        EmergencyData.map(EmData => <EmerService
-                        key={EmData.id}
-                        EmData={EmData}
-                        ></EmerService>)
-                    }
+                    <div className='card-position'>
+                        {
+                            EmergencyData.map(EmData => <EmerService
+                                key={EmData.id}
+                                EmData={EmData}
+                            ></EmerService>)
+                        }
+                    </div>
                 </Container>
             </div>
         </div>

@@ -7,7 +7,7 @@ const EmerService = ({EmData}) => {
 
     return (
         <div>
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '18rem', height: '100%' }}>
                 <h1 className={icon}> </h1>
                 <Card.Body>
                     <Card.Title>< h3>{name}</h3>
