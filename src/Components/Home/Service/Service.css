@@ -15,6 +15,8 @@
 .card-hover:hover{
     background-color: rgb(0, 48, 110);
     color: white;
+    box-shadow: 0 0 15px 7px #046fc0;
+    transition: 0.5s;
 }
 .card-hover:hover h1{
     color: white;
