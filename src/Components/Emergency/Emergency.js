@@ -20,7 +20,7 @@ const Emergency = () => {
             </div>
             <div className='emergency-card-bg'>
                 <Container>
-                    <div className='card-position'>
+                    <div className='card-position emergency-card-bg'>
                         {
                             EmergencyData.map(EmData => <EmerService
                                 key={EmData.id}

@@ -17,3 +17,8 @@
 .emergency-heading{
     color: white;
 }
+.emergency-card-bg{
+    background: url(https://i.ibb.co/nmf5gPf/14800.jpg);
+    background-size: cover;
+    
+}
