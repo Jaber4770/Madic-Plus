@@ -1,3 +1,11 @@
+.em-card-hover:hover{
+    background-color: #012F6A;
+    transition: 0.5s;
+    color: white;
+    box-shadow: 0 0 10px 3px #001838;
+}
 .em-card-icon{
     text-align: center;
+    padding: 20px 0;
+    color: #308DF7;
 }
