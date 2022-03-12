@@ -46,11 +46,15 @@
     background-color: rgb(179, 3, 3);
 }
 /* slider image text */
+.img-size{
+    height: 600px;
+}
+
 .img1-text{
     color: #001838;
 }
 .img3-text{
-    color: #010544;
+    color: #080a24;
 }
 .img2-text{
     color: red;

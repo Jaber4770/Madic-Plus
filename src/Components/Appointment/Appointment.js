@@ -16,7 +16,7 @@ const Appointment = () => {
             <Carousel>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100"
+                        className="d-block w-100 img-size"
                         src={img1}
                         alt="First slide"
                     />
@@ -26,7 +26,7 @@ const Appointment = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100"
+                        className="d-block w-100 img-size"
                         src={img2}
                         alt="Second slide"
                     />
@@ -36,20 +36,20 @@ const Appointment = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100"
+                        className="d-block w-100 img-size"
                         src={img3}
                         alt="Third slide"
                     />
                     <Carousel.Caption>
                         <div className='img3-text'>
-                            <h1>Always we are beside you!</h1>
+                            <h1>Always we are <span className='text-white'>beside you!</span></h1>
                             <h3>Emergency Doctors are 24 Ready for you!</h3>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100"
+                        className="d-block w-100 img-size"
                         src={img4}
                         alt="Third slide"
                     />
