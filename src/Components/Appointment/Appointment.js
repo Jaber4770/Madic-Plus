@@ -20,6 +20,9 @@ const Appointment = () => {
                         src={img1}
                         alt="First slide"
                     />
+                    <Carousel.Caption>
+                        <h1 className='img1-text'>Always we are beside you!</h1>
+                    </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
@@ -27,6 +30,9 @@ const Appointment = () => {
                         src={img2}
                         alt="Second slide"
                     />
+                    <Carousel.Caption>
+                        <h1 className='img2-text'>Always we <span className='text-white'>are</span> beside you!</h1>
+                    </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
@@ -34,6 +40,12 @@ const Appointment = () => {
                         src={img3}
                         alt="Third slide"
                     />
+                    <Carousel.Caption>
+                        <div className='img3-text'>
+                            <h1>Always we are beside you!</h1>
+                            <h3>Emergency Doctors are 24 Ready for you!</h3>
+                        </div>
+                    </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
@@ -41,6 +53,10 @@ const Appointment = () => {
                         src={img4}
                         alt="Third slide"
                     />
+                    <Carousel.Caption>
+                        <h1>Always we are beside you!</h1>
+                        <h3>Call us 24/7</h3>
+                    </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
 

@@ -45,3 +45,13 @@
 .submit-btn:hover{
     background-color: rgb(179, 3, 3);
 }
+/* slider image text */
+.img1-text{
+    color: #001838;
+}
+.img3-text{
+    color: #010544;
+}
+.img2-text{
+    color: red;
+}
