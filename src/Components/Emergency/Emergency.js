@@ -21,13 +21,18 @@ const Emergency = () => {
             <div className='emergency-card-bg'>
                 <Container>
                     <div className='emrgency-flex'>
-                        <div className='emergency-card-position emergency-card-bg'>
-                            {
-                                EmergencyData.map(EmData => <EmerService
-                                    key={EmData.id}
-                                    EmData={EmData}
-                                ></EmerService>)
-                            }
+                        <div className='emergency-card-bg'>
+                            <div className='em-heading-aftr'>
+                                <h1 className='emergency-heading em-heading-after my-3 text-center'>Our Emergency Services</h1>
+                            </div>
+                            <div className='emergency-card-position'>
+                                {
+                                    EmergencyData.map(EmData => <EmerService
+                                        key={EmData.id}
+                                        EmData={EmData}
+                                    ></EmerService>)
+                                }
+                            </div>
                         </div>
                     </div>
                 </Container>

@@ -17,6 +17,18 @@
 .emergency-heading{
     color: white;
 }
+.em-heading-aftr{
+    position: relative;
+}
+.em-heading-after::after{
+    content: '';
+    background-color: white;
+    height: 2px;
+    width: 40px;
+    position: absolute;
+    bottom: -7px;
+    left: 48%;
+}
 .emergency-card-bg{
     background: url(https://i.ibb.co/nmf5gPf/14800.jpg);
     background-size: cover;
