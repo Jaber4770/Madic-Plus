@@ -39,10 +39,19 @@
     background-color: red;
     position: absolute;
 }
-
+.our-history-underline::after{
+    content: "";
+    height: 3px;
+    width: 100px;
+    left:7%;
+    bottom:-5%;
+    background-color: red;
+    position: absolute;
+}
 .maing-text{
+    width: 60%;
 
 }
 .side-bar{
-    
+    width: 40%;
 }
