@@ -12,7 +12,7 @@ const Emergency = () => {
     }, [])
 
     return (
-        <div>
+        <div className='font'>
             <div className='emergency-bg'>
                 <div className='overlay'>
                     <h1 className='mt-4 mb-3 text-center emergency-heading'>24/7 We are <span className='span-color'>ready</span> for your call!</h1>
