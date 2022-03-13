@@ -1,0 +1,16 @@
+.abou-flex{
+    display: flex;
+    background: url(https://i.ibb.co/Phc8Rhx/5172658.jpg);
+    background-size: cover;
+}
+.width-half{
+    width: 48%;
+    color: white;
+}
+.text-width{
+    margin-left: 5%;
+    padding-top: 20%;
+}
+.width-half img{
+    width: 100%;
+}
