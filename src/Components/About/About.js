@@ -7,7 +7,7 @@ const About = () => {
         <div>
             <div className='abou-flex'>
                 <div className='width-half text-width'>
-                    <h1>Know about us!</h1>
+                    <h1>About us!</h1>
                 </div>
                 <div className='width-half'>
                     <img src="https://i.ibb.co/6nHFGVs/20943446-prev-ui.png" alt="" />
