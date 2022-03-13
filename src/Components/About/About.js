@@ -4,7 +4,7 @@ import "./About.css"
 
 const About = () => {
     return (
-        <div>
+        <div className='font'>
             <div className='abou-flex'>
                 <div className='width-half text-width'>
                     <h1>About us!</h1>
@@ -14,15 +14,15 @@ const About = () => {
                 </div>
             </div>
             <Container>
-                <div className='history-div'>
+                <div className='history-div my-5'>
                     <div className='text-center my-4 history-underline'>
                         <h2><span className='span-color'>Medica Plus</span> History<span className='span-color'>!</span></h2>
                         <h3>EVERYTHING BEGAN IN A <span className='span-color'>GARAGE.</span></h3>
                         <p className='history-pera'>Aliquam magna nibh, mattis a urna nec, semper venenatis magna. Cras suscipit neque libero, <br /> in bibendum orci scelerisque mollis. Nunc auctor ut erat vel euismod. Aenean tristique leo eros, at gravida massa semper eu.</p>
                     </div>
                 </div>
-                <div>
-                    <div className='maing-text'>
+                <div className='d-flex'>
+                    <div className='maing-text main-text-margin'>
                         <div className='history-div'>
                             <h1 className='our-history-underline mt-3 mb-4'>Our <span className='span-color'>Stories</span></h1>
                         </div>
@@ -46,7 +46,26 @@ const About = () => {
                         </div>
                     </div>
                     <div className='side-bar'>
-
+                        <div className='mb-4'>
+                            <div>
+                                <img src="https://i.ibb.co/SmyK0hD/heart.jpg" alt="" />
+                            </div>
+                            <div>
+                                <h2>Our Missions</h2>
+                                <p className='history-pera'>Proin nec lacus lacus. Sed vitae consectetur est, et mattis felis. Fusce lacinia nibh vitae fermentum finibus. Donec malesuada efficitur dapibus. Cras euismod nunc tellus.</p>
+                                <a className='read-more' href="https://www.wikipedia.org/">Read more</a>
+                            </div>
+                        </div>
+                        <div className='mb-3'>
+                            <div>
+                                <img src="https://i.ibb.co/VppBLyk/heart2.jpg" alt="" />
+                            </div>
+                            <div>
+                                <h2>Our Vision & Plan</h2>
+                                <p className='history-pera'>Proin nec lacus lacus. Sed vitae consectetur est, et mattis felis. Fusce lacinia nibh vitae fermentum finibus. Donec malesuada efficitur dapibus. Cras euismod nunc tellus.</p>
+                                <a className='read-more' href="https://www.wikipedia.org/">Read more</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </Container>
