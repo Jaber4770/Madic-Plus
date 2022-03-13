@@ -22,6 +22,14 @@ const About = () => {
                             consequat imperdiet nisi. Phasellus at quam tristique, cursus tellus vitae, convallis neque.</p>
                     </div>
                 </div>
+                <div>
+                    <div className='maing-text'>
+
+                    </div>
+                    <div className='side-bar'>
+
+                    </div>
+                </div>
             </Container>
         </div>
     );
