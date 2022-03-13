@@ -14,7 +14,14 @@ const About = () => {
                 </div>
             </div>
             <Container>
-
+                <div className='history-div'>
+                    <div className='text-center my-4 history-underline'>
+                        <h2><span className='span-color'>Medica Plus</span> History<span className='span-color'>!</span></h2>
+                        <h3>EVERYTHING BEGAN IN A <span className='span-color'>GARAGE.</span></h3>
+                        <p>Pellentesque semper quis neque dictum hendrerit. Sed nulla ipsum, porttitor pharetra tortor in, <br></br>
+                            consequat imperdiet nisi. Phasellus at quam tristique, cursus tellus vitae, convallis neque.</p>
+                    </div>
+                </div>
             </Container>
         </div>
     );

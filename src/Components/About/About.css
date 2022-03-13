@@ -27,3 +27,15 @@
 .width-half img{
     width: 100%;
 }
+.history-div{
+    position: relative;
+}
+.history-underline::after{
+    content: "";
+    height: 2px;
+    width: 100px;
+    left:45%;
+    bottom:-5%;
+    background-color: red;
+    position: absolute;
+}
