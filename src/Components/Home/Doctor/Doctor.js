@@ -6,7 +6,7 @@ const Doctor = ({ DoctorData }) => {
     const { name, special, img } = DoctorData;
     return (
         <div>
-            <div data-aos="fade-up" data-aos-duration="3000">
+            <div data-aos="flip-left">
                 <Card className='doctors-card-hover' style={{ width: '18rem' }}>
                     <img src={img} alt="" />
                     <Card.Body>

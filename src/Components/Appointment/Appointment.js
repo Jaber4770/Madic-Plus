@@ -86,7 +86,9 @@ const Appointment = () => {
                             <label htmlFor="problem">Your Problem: </label><br />
                             <textarea className='input problem-box' {...register("Problem")} placeholder="Write your problem" />
                             <br />
-                            <input className='submit-btn' type="submit" />
+                            <div data-aos="fade-right">
+                                <input className='submit-btn' type="submit" />
+                            </div>
                         </form>
                     </div>
                 </Container>

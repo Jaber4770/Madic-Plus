@@ -7,7 +7,7 @@ const Service = ({ service }) => {
     return (
         <div>
             <div data-aos="fade-up">
-                <Card className='card-hover' style={{ width: '20rem', height: '100%' }}>
+                <Card className='card-hover' style={{ width: '20rem', height: '110%' }}>
                     <div className='icon-div'>
                         <div data-aos="fade-left">
                             <h1 className={icon}> </h1>
