@@ -2,6 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { Container } from 'react-bootstrap';
 import Service from '../Service/Service';
 import './Services.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
+
 
 const Services = () => {
     const [services, setServices] = useState([]);
