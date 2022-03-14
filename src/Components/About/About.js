@@ -7,7 +7,9 @@ const About = () => {
         <div className='font'>
             <div className='abou-flex'>
                 <div className='width-half text-width'>
-                    <h1>About us!</h1>
+                    <div data-aos="fade-right">
+                        <h1>About us!</h1>
+                    </div>
                 </div>
                 <div className='width-half'>
                     <img src="https://i.ibb.co/6nHFGVs/20943446-prev-ui.png" alt="" />

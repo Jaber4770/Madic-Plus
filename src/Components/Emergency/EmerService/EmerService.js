@@ -14,14 +14,18 @@ const EmerService = ({ EmData }) => {
                         <h1 className={icon}> </h1>
                     </div>
                 </div>
-                <Card.Body>
-                    <Card.Title>< h3>{name}</h3>
-                    </Card.Title>
-                    <Card.Text>
-                        <p>{description}</p>
-                    </Card.Text>
-                </Card.Body>
-                <Button variant="primary">{call}</Button>
+                <div data-aos="zoom-in-down">
+                    <Card.Body>
+                        <Card.Title>< h3>{name}</h3>
+                        </Card.Title>
+                        <Card.Text>
+                            <p>{description}</p>
+                        </Card.Text>
+                    </Card.Body>
+                </div>
+                <div data-aos="fade-up" className='text-center'>
+                    <Button variant="primary">{call}</Button>
+                </div>
             </Card>
         </div>
     );
