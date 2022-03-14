@@ -9,16 +9,22 @@ const Service = ({ service }) => {
             <div data-aos="fade-up">
                 <Card className='card-hover' style={{ width: '20rem', height: '100%' }}>
                     <div className='icon-div'>
-                        <h1 className={icon}> </h1>
+                        <div data-aos="fade-left">
+                            <h1 className={icon}> </h1>
+                        </div>
                     </div>
-                    <Card.Body>
-                        <Card.Title><h3>{name}</h3></Card.Title>
-                        <Card.Text>
-                            <p className='pera-center'>{description}</p>
-                        </Card.Text>
-                    </Card.Body>
+                    <div data-aos="zoom-in">
+                        <Card.Body>
+                            <Card.Title><h3>{name}</h3></Card.Title>
+                            <Card.Text>
+                                <p className='pera-center'>{description}</p>
+                            </Card.Text>
+                        </Card.Body>
+                    </div>
                     <div className='card-footer-btm'>
-                        <Button className='btn-hover' variant="primary">Service Details</Button>
+                        <div data-aos="fade-right">
+                            <Button className='btn-hover' variant="primary">Service Details</Button>
+                        </div>
                     </div>
                 </Card>
             </div>
