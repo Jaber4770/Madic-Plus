@@ -10,3 +10,8 @@
 .log-img-w{
     width: 100%;
 }
+.login-bg{
+    box-shadow:0 0 15px 3px gray;
+    border-radius: 3px;
+    margin-bottom: 2%;
+}

@@ -12,9 +12,12 @@ const Login = () => {
                         <img className='log-img-w' src="https://i.ibb.co/HpkKyHd/4957136.jpg" alt="" />
                     </div>
                     <div className='login-bg login-half-width'>
-                        <div>
-                            <img src="https://i.ibb.co/VY3WBb3/usericon.jpg" alt="" />
+                        <div className='text-center'>
+                            <img className='w-25' src="https://i.ibb.co/VY3WBb3/usericon.jpg" alt="" />
                         </div>
+                        <form action="">
+                            
+                        </form>
                     </div>
                 </div>
             </Container>
