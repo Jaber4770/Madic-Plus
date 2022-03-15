@@ -16,8 +16,17 @@ const Login = () => {
                             <img className='w-25' src="https://i.ibb.co/VY3WBb3/usericon.jpg" alt="" />
                         </div>
                         <form action="">
-                            
+                            <label htmlFor="">Email: </label> <br />
+                            <input type="email" name="Email" id="" />
+                            <br />
+                            <label htmlFor="">Password: </label> <br />
+                            <input type="password" name="Password" id="" />
+                            <br />
+                            <input type="submit" value="submit" />
                         </form>
+                        <div>
+                            
+                        </div>
                     </div>
                 </div>
             </Container>
