@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import './Login.css'
@@ -24,8 +25,9 @@ const Login = () => {
                             <br />
                             <input type="submit" value="submit" />
                         </form>
-                        <div>
-                            
+                        <div className='text-center'>
+                            <button><FontAwesomeIcon icon="fa-brands fa-google" /> Sign in with Google</button>
+                            <button><FontAwesomeIcon icon="fa-brands fa-facebook" /> Sign in with Facebook</button>
                         </div>
                     </div>
                 </div>
