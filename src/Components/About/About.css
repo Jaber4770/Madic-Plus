@@ -18,15 +18,6 @@
 .text-width h1{
     font-size: 70px;
 }
-.text-width h1::after{
-    content: '';
-    background-color: white;
-    height: 3px;
-    width: 70px;
-    position: absolute;
-    bottom: 45%;
-    left: 48%;
-}
 .width-half img{
     width: 100%;
 }
