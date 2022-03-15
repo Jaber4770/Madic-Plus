@@ -13,7 +13,7 @@ const Login = () => {
                     </div>
                     <div className='login-bg login-half-width'>
                         <div>
-                            <img src="" alt="" />
+                            <img src="https://i.ibb.co/VY3WBb3/usericon.jpg" alt="" />
                         </div>
                     </div>
                 </div>
