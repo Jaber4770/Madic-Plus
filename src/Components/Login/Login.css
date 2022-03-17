@@ -11,7 +11,10 @@
     width: 100%;
 }
 .login-bg{
-    box-shadow:0 0 15px 3px gray;
-    border-radius: 3px;
+    box-shadow:0 0 15px 3px rgb(230, 230, 230);
+    border-radius: 2%;
     margin-bottom: 2%;
+}
+.form{
+    margin: 0 auto;
 }

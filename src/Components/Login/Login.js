@@ -17,15 +17,17 @@ const Login = () => {
                         <div className='text-center'>
                             <img className='w-25' src="https://i.ibb.co/VY3WBb3/usericon.jpg" alt="" />
                         </div>
-                        <form action="">
-                            <label htmlFor="">Email: </label> <br />
-                            <input type="email" name="Email" id="" />
-                            <br />
-                            <label htmlFor="">Password: </label> <br />
-                            <input type="password" name="Password" id="" />
-                            <br />
-                            <input type="submit" value="submit" />
-                        </form>
+                        <div className='form'>
+                            <form action="">
+                                <label htmlFor="">Email: </label> <br />
+                                <input type="email" name="Email" id="" />
+                                <br />
+                                <label htmlFor="">Password: </label> <br />
+                                <input type="password" name="Password" id="" />
+                                <br />
+                                <input type="submit" value="submit" />
+                            </form>
+                        </div>
                         <div className='text-center'>
                             <button><i className="fa-brands fa-google"></i> Sign in with Google</button>
 
