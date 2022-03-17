@@ -20,15 +20,17 @@ const Login = () => {
                         <div className='form'>
                             <form action="">
                                 <label htmlFor="">Email: </label> <br />
-                                <input type="email" name="Email" id="" />
+                                <input className='input-width' type="email" name="Email" id="" placeholder='Your Eamil' />
+                                <br />
                                 <br />
                                 <label htmlFor="">Password: </label> <br />
-                                <input type="password" name="Password" id="" />
+                                <input className='input-width' type="password" name="Password" id="" placeholder='Your Password' />
                                 <br />
-                                <input type="submit" value="submit" />
+                                <br />
+                                <input className='sumbit-color' type="submit" value="submit" />
                             </form>
                         </div>
-                        <div className='text-center'>
+                        <div className='text-center other-login'>
                             <button><i className="fa-brands fa-google"></i> Sign in with Google</button>
 
                             <button><FontAwesomeIcon icon="fa-brands fa-facebook" /> Sign in with Facebook</button>

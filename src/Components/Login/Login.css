@@ -16,5 +16,22 @@
     margin-bottom: 2%;
 }
 .form{
-    margin: 0 auto;
+    margin: 0 25%;
+    padding-top: 10%;
+}
+.input-width{
+    width: 280px;
+    outline: none;
+}
+.other-login{
+    margin-top: 10%;
+}
+.sumbit-color{
+    background-color: #007DEF;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 15px;
 }
