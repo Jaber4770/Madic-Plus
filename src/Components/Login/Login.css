@@ -34,12 +34,22 @@
     border: none;
     border-radius: 3px;
     padding: 5px 15px;
+    margin-bottom: 
+    10px;
 }
 .google-bt-bg{
     background-color: #4285F4;
+    transition: 0.3s;
+}
+.google-bt-bg:hover{
+    background-color: #1167f3;
 }
 .facebook-bt-bg{
-    background-color:#3b5998;
+    background-color:#315297;
+    transition: 0.3s;
+}
+.facebook-bt-bg:hover{
+    background-color:#1342a5;
 }
 .log-btn{
     border: none;
