@@ -31,9 +31,9 @@ const Login = () => {
                             </form>
                         </div>
                         <div className='text-center other-login'>
-                            <button><i className="fa-brands fa-google"></i> Sign in with Google</button>
+                            <button className='me-3 google-bt-bg text-light fs-5 log-btn'><i className="fa-brands fa-google"></i> Sign in with Google</button>
 
-                            <button><FontAwesomeIcon icon="fa-brands fa-facebook" /> Sign in with Facebook</button>
+                            <button className=' text-light fs-5 facebook-bt-bg log-btn'><FontAwesomeIcon icon="fa-brands fa-facebook" /> Sign in with Facebook</button>
                         </div>
                     </div>
                 </div>

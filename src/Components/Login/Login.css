@@ -24,7 +24,7 @@
     outline: none;
 }
 .other-login{
-    margin-top: 10%;
+    margin-top: 8%;
 }
 .sumbit-color{
     background-color: #007DEF;
@@ -34,4 +34,15 @@
     border: none;
     border-radius: 3px;
     padding: 5px 15px;
+}
+.google-bt-bg{
+    background-color: #4285F4;
+}
+.facebook-bt-bg{
+    background-color:#3b5998;
+}
+.log-btn{
+    border: none;
+    padding: 7px 15px;
+    border-radius: 3px;
 }
