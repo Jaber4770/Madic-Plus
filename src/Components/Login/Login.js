@@ -29,7 +29,7 @@ const Login = () => {
                                 <br />
                                 <input className='sumbit-color' type="submit" value="submit" />
                             </form>
-                            <span>Already have an account?</span>
+                            <p>Already have an account?</p>
                         </div>
                         <div className='text-center other-login'>
                             <button className='me-3 google-bt-bg text-light fs-6 log-btn'><i class="fab fa-google"></i> Sign in with Google</button>
