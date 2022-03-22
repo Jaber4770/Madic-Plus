@@ -33,7 +33,6 @@ const Login = () => {
                         </div>
                         <div className='text-center other-login'>
                             <button className='me-3 google-bt-bg text-light fs-6 log-btn'><i class="fab fa-google"></i> Sign in with Google</button>
-
                             <button className=' text-light fs-6 facebook-bt-bg log-btn'><i class="fab fa-facebook"></i> Sign in with Facebook</button>
                         </div>
                     </div>
