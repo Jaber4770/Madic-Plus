@@ -12,6 +12,7 @@ import Appointment from './Components/Appointment/Appointment';
 import Emergency from './Components/Emergency/Emergency';
 import Services from './Components/Services/Services';
 import Login from './Components/Login/Login';
+import Signup from './Components/Login/Signup';
 
 function App() {
   return (
@@ -39,6 +40,9 @@ function App() {
           </Route>
           <Route path='/login'>
             <Login></Login>
+          </Route>
+          <Route path='/signup'>
+            <Signup></Signup>
           </Route>
           <Route path='*'>
             <NotFound></NotFound>

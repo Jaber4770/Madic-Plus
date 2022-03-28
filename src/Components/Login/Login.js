@@ -2,13 +2,14 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './Login.css'
 
 const Login = () => {
     return (
         <div>
             <Container>
-                <h1 className='text-center mt-4 mb-5'>Please Login Here!</h1>
+                <h1 className='text-center mt-4 mb-5'>Login</h1>
                 <div className='log-d-flex'>
                     <div className='login-half-width login-img'>
                         <img className='log-img-w' src="https://i.ibb.co/HpkKyHd/4957136.jpg" alt="" />
@@ -29,7 +30,7 @@ const Login = () => {
                                 <br />
                                 <input className='sumbit-color' type="submit" value="submit" />
                             </form>
-                            <span>Already have an account?</span>
+                            <span>Already have an account? <Link to="/signup">Signup</Link></span>
                         </div>
                         <div className='text-center other-login'>
                             <button className='me-3 google-bt-bg text-light fs-6 log-btn'><i class="fab fa-google"></i> Sign in with Google</button>
