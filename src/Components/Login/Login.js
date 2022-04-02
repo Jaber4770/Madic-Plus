@@ -1,5 +1,3 @@
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
@@ -7,9 +5,9 @@ import './Login.css'
 
 const Login = () => {
     return (
-        <div>
+        <div className='position-relative'>
             <Container>
-                <h1 className='text-center mt-4 mb-5'>Login</h1>
+                <h1 className='text-center mt-4 mb-5 Lgn-undrln'>Login</h1>
                 <div className='log-d-flex'>
                     <div className='login-half-width login-img'>
                         <img className='log-img-w' src="https://i.ibb.co/HpkKyHd/4957136.jpg" alt="" />
