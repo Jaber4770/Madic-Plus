@@ -40,11 +40,17 @@
     color: white;
     font-weight: 700;
     font-size: 18px;
-    border: none;
+    border: 1px solid #007DEF;
     border-radius: 3px;
     padding: 5px 15px;
     margin-bottom: 
-    10px;
+    15px;
+}
+.sumbit-color:hover{
+    background-color: white;
+    transition: 0.3s;
+    color: red;
+    border: 1px solid red;
 }
 .google-bt-bg{
     background-color: #4285F4;
@@ -64,4 +70,7 @@
     border: none;
     padding: 7px 15px;
     border-radius: 3px;
+}
+.join-color{
+    color: red;
 }

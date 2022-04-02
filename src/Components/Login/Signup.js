@@ -6,7 +6,7 @@ const Signup = () => {
         <div className='d-flex'>
             <div className='login-bg login-half-width pb-5 mt-5 mb-5 ms-5'>
                 <div className='text-center pt-2'>
-                    <h1>Sign up</h1>
+                    <h1><span className='join-color'>Join</span> us for free<span className='join-color'>!</span></h1>
                 </div>
                 <div className='form'>
                     <form action="">
