@@ -22,7 +22,7 @@ const Signup = () => {
                         <input className='input-width' type="password" name="Password" id="" placeholder='Your Password' />
                         <br />
                         <br />
-                        <input className='sumbit-color' type="submit" value="submit" />
+                        <input className='sumbit-color' type="submit" value="Signup" />
                     </form>
                     <span>Already have an account? <Link to="/login">Login</Link></span>
                 </div>

@@ -7,7 +7,7 @@ const Login = () => {
     return (
         <div className='position-relative'>
             <Container>
-                <div className='log-d-flex'>
+                <div className='log-d-flex mt-5 mb-3'>
                     <div className='login-half-width login-img'>
                         <img className='log-img-w' src="https://i.ibb.co/HpkKyHd/4957136.jpg" alt="" />
                     </div>
@@ -25,7 +25,7 @@ const Login = () => {
                                 <input className='input-width' type="password" name="Password" id="" placeholder='Your Password' />
                                 <br />
                                 <br />
-                                <input className='sumbit-color' type="submit" value="submit" />
+                                <input className='sumbit-color' type="submit" value="Login" />
                             </form>
                             <span>Already have an account? <Link to="/signup">Signup</Link></span>
                         </div>
