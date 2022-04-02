@@ -13,10 +13,11 @@ import Emergency from './Components/Emergency/Emergency';
 import Services from './Components/Services/Services';
 import Login from './Components/Login/Login';
 import Signup from './Components/Login/Signup';
+import AuthProvider from './Components/ContextApi/AuthProvider';
 
 function App() {
   return (
-    <div>
+    <AuthProvider>
       <BrowserRouter>
         <Header></Header>
         <Switch>
@@ -50,7 +51,7 @@ function App() {
         </Switch>
         <Footer></Footer>
       </BrowserRouter>
-    </div>
+    </AuthProvider>
   );
 }
 
