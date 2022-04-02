@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Signup = () => {
     return (
-        <div>
+        <div className='d-flex'>
             <div className='login-bg login-half-width pb-5 mt-5 mb-5 ms-5'>
                 <div className='text-center pt-2'>
                     <h1>Sign up</h1>
@@ -30,6 +30,9 @@ const Signup = () => {
                     <button className='me-3 google-bt-bg text-light fs-6 log-btn'><i class="fab fa-google"></i> Sign in with Google</button>
                     <button className=' text-light fs-6 facebook-bt-bg log-btn'><i class="fab fa-facebook"></i> Sign in with Facebook</button>
                 </div>
+            </div>
+            <div>
+                <img src="https://img.freepik.com/free-vector/sign-up-concept-illustration_114360-7895.jpg?w=740&t=st=1648920839~exp=1648921439~hmac=133c421815970c9a6ee5b7ccfaa20ff8de8227c7bae3a0a80f673e2c4b3f6dd9" alt="" />
             </div>
         </div>
     );
