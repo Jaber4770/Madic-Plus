@@ -1,9 +1,22 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link, useHistory, useLocation } from 'react-router-dom';
+import useAuth from '../../Hooks/useAuth';
 import './Login.css'
 
 const Login = () => {
+    const {SignInUsingGoogle} = useAuth();
+    const history = useHistory();
+    const location = useLocation();
+    const redirectURL = location.state?.from || '/login'
+
+    const handleGoogleLogin = () => {
+        SignInUsingGoogle()
+            .then(result => {
+                history.push(redirectURL);
+            })
+    }
+    
     return (
         <div className='position-relative'>
             <Container>
@@ -30,7 +43,7 @@ const Login = () => {
                             <span>Already have an account? <Link to="/signup">Signup</Link></span>
                         </div>
                         <div className='text-center other-login'>
-                            <button className='me-3 google-bt-bg text-light fs-6 log-btn'><i class="fab fa-google"></i> Sign in with Google</button>
+                            <button className='me-3 google-bt-bg text-light fs-6 log-btn' onClick={handleGoogleLogin}><i class="fab fa-google"></i> Sign in with Google</button>
                             <button className=' text-light fs-6 facebook-bt-bg log-btn'><i class="fab fa-facebook"></i> Sign in with Facebook</button>
                         </div>
                     </div>
