@@ -23,12 +23,12 @@ const Header = () => {
                             <Nav.Link as={HashLink} className='nav-item' to="/emergency">Emergency</Nav.Link>
                             <Nav.Link as={HashLink} className='nav-item' to="/about">About us</Nav.Link>
                         </div>
-                        <div>
+                        <div className='log-div'>
                             {
                                 user.email ?
                                     <div className='d-flex'>
                                         <span>{user.displayName}</span>
-                                        <button onClick={Logout}>Logout</button>
+                                        <button className='logout-btn' onClick={Logout}>Logout</button>
                                     </div>
                                     :
                                     <Nav.Link as={HashLink} className='nav-item' to="/login">Login</Nav.Link>

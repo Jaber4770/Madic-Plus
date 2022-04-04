@@ -10,7 +10,7 @@
     font-family: 'Oswald', sans-serif;
 }
 .nav-item{
-    height: 56px;
+    height: 45px;
 }
 .nav-item:hover{
     background-color: #262f36;
@@ -20,4 +20,19 @@
     display: inline-block;
     font-size: 22px;
     color: #ff0a0a;
+}
+/* logout btn */
+.logout-btn{
+    border:1px solid red;
+    border-radius: 3px;
+    color:red;
+    background-color: transparent;
+    margin-left: 5px;
+}
+.logout-btn:hover{
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    transition: 0.3s;
+    box-shadow: 0 0 3px 1px rgb(187, 33, 33);
 }
