@@ -15,7 +15,7 @@ const Services = () => {
     return (
         <div>
             <div>
-                <img className='service-banner' src="https://i.ibb.co/K6XGCD7/pharmacy-store-elements-set-33099-2359.jpg" alt="" />
+                <img className='service-banner' src="https://i.ibb.co/hgPjLRn/2006-w020-n001-411-B-p15-411.jpg" alt="" />
             </div>
             <div className='center'>
                 <div className='service-center'>
