@@ -15,21 +15,25 @@ const Header = () => {
                         <h3 className='navBrand'>Medic Plus</h3>
                     </Navbar.Brand>
                     <Navbar.Toggle />
-                    <Navbar.Collapse className="justify-content-end">
-                        <Nav.Link as={HashLink} className='nav-item' to="/home">Home</Nav.Link>
-                        <Nav.Link as={HashLink} className='nav-item' to="/services">Services</Nav.Link>
-                        <Nav.Link as={HashLink} className='nav-item' to="/appointment">Appointment</Nav.Link>
-                        <Nav.Link as={HashLink} className='nav-item' to="/emergency">Emergency</Nav.Link>
-                        <Nav.Link as={HashLink} className='nav-item' to="/about">About us</Nav.Link>
-                        {
-                            user.email ?
-                                <div className='d-flex'>
-                                    <span>{user.displayName}</span>
-                                    <button onClick={Logout}>Logout</button>
-                                </div>
-                                :
-                                <Nav.Link as={HashLink} className='nav-item' to="/login">Login</Nav.Link>
-                        }
+                    <Navbar.Collapse className="justify-content-end d-flex align-items-center">
+                        <div className='d-flex'>
+                            <Nav.Link as={HashLink} className='nav-item' to="/home">Home</Nav.Link>
+                            <Nav.Link as={HashLink} className='nav-item' to="/services">Services</Nav.Link>
+                            <Nav.Link as={HashLink} className='nav-item' to="/appointment">Appointment</Nav.Link>
+                            <Nav.Link as={HashLink} className='nav-item' to="/emergency">Emergency</Nav.Link>
+                            <Nav.Link as={HashLink} className='nav-item' to="/about">About us</Nav.Link>
+                        </div>
+                        <div>
+                            {
+                                user.email ?
+                                    <div className='d-flex'>
+                                        <span>{user.displayName}</span>
+                                        <button onClick={Logout}>Logout</button>
+                                    </div>
+                                    :
+                                    <Nav.Link as={HashLink} className='nav-item' to="/login">Login</Nav.Link>
+                            }
+                        </div>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
