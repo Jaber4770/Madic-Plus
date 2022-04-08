@@ -7,12 +7,13 @@ const AppointmentForm = () => {
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
     const onSubmit = data => console.log(data);
     return (
-        <div className='form-bg'>
+        // className='form-bg'
+        <div className='my-4'>
             <Container>
                 <div className='d-flex justify-content-center align-items-center mt-5 pt-3'>
                     <div data-aos="fade-right">
                         <div>
-                            <img src="http://asianitbd.com/wp/hopemedical/wp-content/uploads/2016/10/image-forlift.png" alt="" />
+                            <img className='w-100' src="https://i.ibb.co/TH3y1CH/6460.jpg" alt="" />
                         </div>
                     </div>
                     <div>

@@ -15,7 +15,7 @@ const Signup = () => {
             })
     }
     return (
-        <div className='d-flex'>
+        <div className='d-flex justify-content-center align-items-center'>
             <div className='login-bg login-half-width pb-5 mt-5 mb-5 ms-5'>
                 <div className='text-center pt-2'>
                     <h1>Join us for <span className='join-color'>Free</span>!</h1>
@@ -44,7 +44,7 @@ const Signup = () => {
                 </div>
             </div>
             <div>
-                <img src="https://img.freepik.com/free-vector/sign-up-concept-illustration_114360-7895.jpg?w=740&t=st=1648920839~exp=1648921439~hmac=133c421815970c9a6ee5b7ccfaa20ff8de8227c7bae3a0a80f673e2c4b3f6dd9" alt="" />
+                <img className='w-75' src="https://img.freepik.com/free-vector/sign-up-concept-illustration_114360-7895.jpg?w=740&t=st=1648920839~exp=1648921439~hmac=133c421815970c9a6ee5b7ccfaa20ff8de8227c7bae3a0a80f673e2c4b3f6dd9" alt="" />
             </div>
         </div>
     );
