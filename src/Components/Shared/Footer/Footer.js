@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <div className="footer-top">
             <Container>
-                <div className='d-flex footer-center'>
+                <div className='d-flex footer-center'  data-aos="zoom-in">
                     <div className="pe-4 pt-3">
                         <h3>Contact info</h3>
                         <p><FaPhoneAlt /> Phone: +88016XXXXXXXX</p>
