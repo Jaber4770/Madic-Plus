@@ -15,9 +15,9 @@
     position: absolute;
     content: '';
     height: 2px;
-    width: 300px;
-    bottom: -5px;
-    left: 16%;
+    width: 40px;
+    bottom: -8px;
+    left: 48%;
     background-color: rgb(228, 18, 18);
 }
 .form{

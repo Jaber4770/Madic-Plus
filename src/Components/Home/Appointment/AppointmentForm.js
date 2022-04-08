@@ -10,6 +10,9 @@ const AppointmentForm = () => {
         // className='form-bg'
         <div className='my-4'>
             <Container>
+                <div className='appointment-head'>
+                    <h1 className='text-center appointment-title mt-5 mb-4 span-color'>Appointment</h1>
+                </div>
                 <div className='d-flex justify-content-center align-items-center mt-5 pt-3'>
                     <div data-aos="fade-right">
                         <div>
@@ -18,9 +21,6 @@ const AppointmentForm = () => {
                     </div>
                     <div>
                         <div data-aos="fade-left">
-                            <div className='appointment-head'>
-                                <h1 className='text-center appointment-title mt-5 mb-4 span-color'>Appointment</h1>
-                            </div>
                             <form className='form' onSubmit={handleSubmit(onSubmit)}>
                                 <label htmlFor="Name">Name: </label>
                                 <input placeholder='Name' className='appointment appointment-name' {...register("Name", { required: true })} />
