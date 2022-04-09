@@ -16,7 +16,7 @@ const Footer = () => {
                     <div className="pe-4 pt-3">
                         <h3>For Appointment</h3>
                         <p><FaPhoneAlt /> Phone: +88016XXXXXXXX</p>
-                        <p><FaRegEnvelope /> Email: MedicPlus@appointment.com</p>
+                        <p><FaRegEnvelope /> Email: medicplus@appointment.com</p>
                     </div>
                     <div className="pe-4 pt-3">
                         <h3>Social Media</h3>
