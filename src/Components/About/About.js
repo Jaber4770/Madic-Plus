@@ -8,7 +8,7 @@ const About = () => {
             <div className='abou-flex'>
                 <div className='width-half text-width'>
                     <div data-aos="fade-right">
-                        <h1>About us!</h1>
+                        <h1>About us</h1>
                     </div>
                 </div>
                 <div className='width-half'>
