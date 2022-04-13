@@ -23,6 +23,7 @@ const useFirebase = () => {
     //       })
     // }
 
+    // onAuthStateChange is tract the user
     useEffect(() => {
         onAuthStateChanged(auth, user => {
             if (user) {
