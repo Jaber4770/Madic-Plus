@@ -5,6 +5,7 @@ import './Services.css'
 
 const Services = () => {
     const [Services, setServices] = useState([]);
+
     useEffect(() => {
         fetch('https://jaber4770.github.io/Medic-Plus-Services-Data/Services.json')
             .then(res => res.json())
@@ -27,6 +28,7 @@ const Services = () => {
                             <h1 className='my-4 underline'>Our best <span className='span-color'>services</span> for you.</h1>
                         </div>
                         <div className='card-position'>
+                            {/* calling single service component from here */}
                             {
                                 Services.map(service => <Service
                                     key={service.id}
