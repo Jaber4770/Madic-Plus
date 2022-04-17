@@ -6,6 +6,7 @@ const PrivateRoute = ({ children, ...rest }) => {
     const { user } = useAuth();
     return (
         <div>
+            {/* private route and redirect */}
             <Route
                 {...rest}
                 render={({ location }) => user.email ? children : <Redirect
