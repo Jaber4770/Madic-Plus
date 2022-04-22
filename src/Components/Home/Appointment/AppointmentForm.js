@@ -26,7 +26,8 @@ const AppointmentForm = () => {
                                 <input placeholder='Name' className='appointment appointment-name' {...register("Name", { required: true })} />
                                 <label htmlFor="Name">Phone: </label>
                                 <input placeholder='Phone' className='appointment appointment-phone' {...register("Phone", { required: true })} />
-                                <label htmlFor="date">Date: </label>
+                                <label htmlFor="date">Date:</label>
+                                <br />
                                 <input className='appointment appointment-date'
                                     type="date" {...register("Appointment-Date", { required: true })} />
                                 <label htmlFor="Time">Time: </label>
