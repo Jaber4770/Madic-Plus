@@ -2,6 +2,7 @@ import React from 'react';
 import { Button, Card } from 'react-bootstrap';
 import './Service.css';
 
+// service card, this is single card
 const Service = ({ service }) => {
     const { name, description, icon } = service;
     return (
